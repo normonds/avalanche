@@ -1,0 +1,85 @@
+{
+	settings:{
+		monteUrl:"http://95.68.56.191:8001",
+		default_font_threshold:0.82,
+		default_card_letter_font:"",
+		default_card_letter_symbol:"",
+		safeClick:[335,532],
+		initPos:[1280,20]},
+	
+	board:{
+		cards:{
+			flop1:{	letter:{region:[399,318,17,35], 		font:"zynga.card.letters", 		thresh:0.82},
+						symbol:{region:[399,335,15,35], 		font:"zynga.big.symbols", 	thresh:0.82}},
+			flop2:{	letter:{region:[437,318,17,35], 		font:"zynga.card.letters", 		thresh:0.82},
+						symbol:{region:[440,335,15,35], 		font:"zynga.big.symbols", 	thresh:0.82}},
+			flop3:{	letter:{region:[479,318,17,35], 		font:"zynga.card.letters", 		thresh:0.82},
+						symbol:{region:[480,335,15,35], 		font:"zynga.big.symbols", 	thresh:0.82}},
+			turn:{	letter:{region:[518,318,17,35], 		font:"zynga.card.letters", 		thresh:0.82},
+						symbol:{region:[520,335,17,35], 		font:"zynga.big.symbols", 	thresh:0.82}},
+			river:{	letter:{region:[560,318,17,35], 		font:"zynga.card.letters", 		thresh:0.82},
+						symbol:{region:[560,335,15,35], 		font:"zynga.big.symbols", 	thresh:0.82}}
+		},
+		pot:{			region:[340,369,295,48], 				font:"zynga.pot.letters", 	thresh:0.9}
+	},
+	player:{
+			reconnect: 	{region:[552,534,48,16],					font:"zynga.special"},
+			dealer:		{region:[534,412,15,15],					font:"zynga.special"},
+			cards:{
+				card1:{	letter:{	region:[440,480,17,35], 		font:"zynga.hand.letters", 		thresh:0.82},
+						symbol:{	region:[441,492,15,35], 		font:"zynga.big.symbols", 	thresh:0.82}},
+				card2:{	letter:{	region:[459,480,17,35], 		font:"zynga.hand.letters", 		thresh:0.82},
+						symbol:{	region:[461,496,15,35], 		font:"zynga.big.symbols", 	thresh:0.82}}
+			},
+			bet: 				{region:[471,428,71,15], 			font:"zynga.pot.letters", thresh:0.82},
+			chips: 			{region:[467,533,71,15], 			font:"zynga.oppon.chips", thresh:.7},
+			checkraise: 	{region:[365,565,128,22], 			font:"zynga.player.controls", thresh:.82},
+			fold: 				{region:[501,565,128,22], 			font:"zynga.player.controls", thresh:.82},
+			allin: 			{region:[564,654,50,16],				font:"zynga.player.controls"},
+			raiseinput: 	{region:[516,593,107,20],			font:"zynga.player.controls"},
+			betraise:		{region:[365,593,128,22],			font:"zynga.player.controls"}
+	},
+	oppons : [
+			
+		{	dealer:		{region:[630,298,15,15],					font:"zynga.special"},
+			cardback: 	{region:[546,275,25,32], 				font:"zynga.oppon.back"},
+			bet: 			{region:[584,313,83,12], 				font:"zynga.pot.letters", thresh:0.80},
+			chips: 		{region:[583,275,71,15], 				font:"zynga.oppon.chips", thresh:.7}},
+			
+		{	dealer:		{region:[665,318,15,15],					font:"zynga.special"},
+			cardback: 	{region:[670,291,25,32], 				font:"zynga.oppon.back"},
+			bet: 			{region:[660,333,83,12], 				font:"zynga.pot.letters", thresh:0.80},
+			chips: 		{region:[742,331,70,15], 				font:"zynga.oppon.chips", thresh:.7}},
+			
+		{	dealer:		{region:[680,420,15,15],					font:"zynga.special"},
+			cardback: 	{region:[692,358,25,32], 				font:"zynga.oppon.back"},
+			bet: 			{region:[655,388,83,12], 				font:"zynga.pot.letters", thresh:0.80},
+			chips: 		{region:[732,464,70,15], 				font:"zynga.oppon.chips", thresh:.7}},
+			
+		{	dealer:		{region:[580,423,15,15],					font:"zynga.special"},
+			cardback: 	{region:[579,389,25,32], 				font:"zynga.oppon.back"},
+			bet: 			{region:[600,403,83,12], 				font:"zynga.pot.letters", thresh:0.80},
+			chips: 		{region:[605,509,70,15], 				font:"zynga.oppon.chips", thresh:.7}},
+			
+		{	dealer:		{region:[340,391,15,15],					font:"zynga.special"},
+			cardback: 	{region:[392,397,25,32], 				font:"zynga.oppon.back"},
+			bet: 			{region:[338,403,83,12], 				font:"zynga.pot.letters", thresh:0.82},
+			chips: 		{region:[341,509,70,15], 				font:"zynga.oppon.chips", thresh:.7}},
+			
+		{	dealer:		{region:[301,418,15,15],					font:"zynga.special"},
+			cardback: 	{region:[279,379,25,32], 				font:"zynga.oppon.back"},
+			bet: 			{region:[281,388,83,12], 				font:"zynga.pot.letters", thresh:0.82},
+			chips: 		{region:[206,474,70,15], 				font:"zynga.oppon.chips", thresh:.7}},
+			
+		{	dealer:		{region:[326,333,15,15],					font:"zynga.special"},
+			cardback: 	{region:[306,291,25,32], 				font:"zynga.oppon.back"},
+			bet: 			{region:[271,338,83,12], 				font:"zynga.pot.letters", thresh:0.82},
+			chips: 		{region:[201,332,70,15], 				font:"zynga.oppon.chips", thresh:.7}},
+		
+		{	dealer:		{region:[355,298,15,15],					font:"zynga.special"},
+			cardback: 	{region:[422,273,25,32], 				font:"zynga.oppon.back"},
+			bet: 			{region:[350,311,83,12], 				font:"zynga.pot.letters", thresh:0.80},
+			chips: 		{region:[354,274,71,15], 				font:"zynga.oppon.chips", thresh:.7},	}
+		
+	]
+}

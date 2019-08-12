@@ -1,0 +1,14 @@
+board=335,258,375,54
+dotflop=20,20
+dotturn=50,20
+dotriver=200,20
+player=450,458,150,70
+dotplayer=30,30
+oppon=330,73
+oppon=650,73
+oppon=130,145
+oppon=80,295
+oppon=838,147
+oppon=915,295
+oppon=183,446
+oppon=785,446

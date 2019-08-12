@@ -1,0 +1,1 @@
+java -cp ./lib/*:./build/classes avalanche.Avalanche
